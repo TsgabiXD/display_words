@@ -1,0 +1,23 @@
+{
+  "name": "display_words",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsgabiXD/display_words.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TsgabiXD/display_words/issues"
+  },
+  "homepage": "https://github.com/TsgabiXD/display_words#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

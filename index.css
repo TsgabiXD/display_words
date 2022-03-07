@@ -1,0 +1,42 @@
+.floatingText1 {
+  white-space: nowrap;
+  top: 15vw;
+  animation-name: loop1;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.floatingText2 {
+  white-space: nowrap;
+  top: 15vw;
+  animation-name: loop2;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes loop1 {
+  from {
+    left: -500%;
+  }
+  to {
+    left: 0%;
+  }
+}
+@keyframes loop2 {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 500%;
+  }
+}
