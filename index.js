@@ -21,4 +21,8 @@ document.getElementById("toDisplay").addEventListener("submit", (e) => {
 
   textPart1.classList = "floatingText1";
   textPart2.classList = "floatingText2";
+
+  textPart1.style.cursor = "none";
+  textPart2.style.cursor = "none";
+  theTextBox.style.cursor = "none";
 });
