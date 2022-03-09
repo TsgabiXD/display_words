@@ -25,4 +25,14 @@ document.getElementById("toDisplay").addEventListener("submit", (e) => {
   textPart1.style.cursor = "none";
   textPart2.style.cursor = "none";
   theTextBox.style.cursor = "none";
+
+  startWakeLock();
 });
+
+async function startWakeLock(){
+  try {
+    const wakeLock = await navigator.wakeLock.request("screen");
+  } catch (error) {
+    console.log(error.name, error.message);
+  }
+}
